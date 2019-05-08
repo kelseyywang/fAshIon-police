@@ -12,7 +12,7 @@ import { PREDICTION_KEY, PREDICTION_URL, IMGUR_API_ID } from "../config-keys";
 
 const DEFAULT_TAG_TEXT = "Hey, I'm your custom fashion police!";
 
-export default class ScanSurroundings extends React.Component {
+export default class PredictFromCamera extends React.Component {
     static navigationOptions = {
         header: null
     };
